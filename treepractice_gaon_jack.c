@@ -187,7 +187,7 @@ void print_lvl(Node* roote, int lvl)
 {
     if (roote==NULL)
         return;
-    if (lvl == 1)   {
+    if (lvl == 0)   {
         printf(" %d ", roote->data);
     }
     else
